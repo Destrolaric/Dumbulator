@@ -35,5 +35,7 @@ set(Pshculator
     pshculator.ui
     ${TS_FILES})
 add_library(Data STATIC ${Pshculator})
-target_link_libraries(Data Qt5::Widgets)
 
+target_link_libraries(Data Qt5::Widgets)
+add_executable(jde)
+target_link_libraries(jde Data)

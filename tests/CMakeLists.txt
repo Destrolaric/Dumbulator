@@ -12,6 +12,6 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(check tst_check.cpp check.h)
+add_library(check tst_check.cpp check.h)
 target_link_libraries(check Qt5::Gui Qt5::Test Data)
 add_test(NAME check COMMAND check)
