@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/check.dir/check_autogen/mocs_compilation.cpp.o CMakeFiles/check.dir/tst_check.cpp.o  -o check  /usr/lib/libQt5Gui.so.5.14.1 /usr/lib/libQt5Test.so.5.14.1 -lData /usr/lib/libQt5Core.so.5.14.1 

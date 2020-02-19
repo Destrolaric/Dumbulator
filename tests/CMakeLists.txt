@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.5)
+project(check LANGUAGES CXX)
+find_package(Qt5Test REQUIRED)
+find_package(Qt5Gui REQUIRED)
+find_library(Data REQUIRED)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+include_directories (${CMAKE_SOURCE_DIR}/src)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(check tst_check.cpp check.h)
+target_link_libraries(check Qt5::Gui Qt5::Test Data)
+add_test(NAME check COMMAND check)

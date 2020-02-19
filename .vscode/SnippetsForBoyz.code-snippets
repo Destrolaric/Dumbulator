@@ -1,0 +1,15 @@
+{
+	"For something":{
+		"scope": "C++",
+		"prefix":[ "for","forf"],
+		"body": ["for (int ${ 2:element};i<${1:element};{2:element}++) {", "\t$0", "}"],
+		"description": "Standart for cycle"
+	},
+	"While true": {
+		"scope": "C++",
+		"prefix": ["while", "whiletrue"],
+		"body": ["while(true){","\t$0","}"],
+		"description": "description"
+	},
+
+}

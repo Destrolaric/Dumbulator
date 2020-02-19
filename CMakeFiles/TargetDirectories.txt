@@ -1,0 +1,13 @@
+/home/georgi/C++/Pshculator/CMakeFiles/rebuild_cache.dir
+/home/georgi/C++/Pshculator/CMakeFiles/test.dir
+/home/georgi/C++/Pshculator/CMakeFiles/edit_cache.dir
+/home/georgi/C++/Pshculator/src/CMakeFiles/rebuild_cache.dir
+/home/georgi/C++/Pshculator/src/CMakeFiles/edit_cache.dir
+/home/georgi/C++/Pshculator/src/CMakeFiles/Pshculator.dir
+/home/georgi/C++/Pshculator/src/CMakeFiles/test.dir
+/home/georgi/C++/Pshculator/src/CMakeFiles/Pshculator_autogen.dir
+/home/georgi/C++/Pshculator/tests/CMakeFiles/rebuild_cache.dir
+/home/georgi/C++/Pshculator/tests/CMakeFiles/edit_cache.dir
+/home/georgi/C++/Pshculator/tests/CMakeFiles/check.dir
+/home/georgi/C++/Pshculator/tests/CMakeFiles/test.dir
+/home/georgi/C++/Pshculator/tests/CMakeFiles/check_autogen.dir

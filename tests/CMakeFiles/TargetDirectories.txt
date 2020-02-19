@@ -1,0 +1,4 @@
+/home/georgi/C++/Pshculator/tests/CMakeFiles/rebuild_cache.dir
+/home/georgi/C++/Pshculator/tests/CMakeFiles/check.dir
+/home/georgi/C++/Pshculator/tests/CMakeFiles/edit_cache.dir
+/home/georgi/C++/Pshculator/tests/CMakeFiles/check_autogen.dir

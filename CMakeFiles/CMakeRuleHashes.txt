@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+4428615d279d68ae902186a2ed44b955 src/CMakeFiles/Pshculator_autogen
+665b48819275e827dcc446f362eec8f3 src/Pshculator_ru_RU.ts
+972ba048ada93f5e2755d4bd4669f251 tests/CMakeFiles/check_autogen

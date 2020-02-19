@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Pshculator.dir/Pshculator_autogen/mocs_compilation.cpp.o CMakeFiles/Pshculator.dir/main.cpp.o CMakeFiles/Pshculator.dir/mathoperations.cpp.o CMakeFiles/Pshculator.dir/pshculator.cpp.o  -o Pshculator  /usr/lib/libQt5Widgets.so.5.14.1 /usr/lib/libQt5Gui.so.5.14.1 /usr/lib/libQt5Core.so.5.14.1 
