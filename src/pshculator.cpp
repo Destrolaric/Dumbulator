@@ -412,3 +412,61 @@ void Pshculator::on_numSqrt_clicked()
     symbolchange = 0;
     operation = ' ';
 }
+
+void Pshculator::on_pushButton_clicked()
+{
+    if (operation != ' ')
+    {
+        operations();
+    }
+    savedvalue=(ui->label->text()).toDouble();
+    operation = ' ';
+}
+
+void Pshculator::on_mDevide_clicked()//wrong button name, yea i am clearly stupid....
+{
+    if (operation != ' '){
+        operations();
+    }
+    double labelnumber = (ui->label->text()).toDouble();
+    labelnumber+=savedvalue;
+    QString newLabel = QString::number(labelnumber, 'g',100);
+    ui->label->setText(newLabel);
+    operation=' ';
+}
+
+void Pshculator::on_mPlus_clicked()
+{
+    if (operation != ' '){
+        operations();
+    }
+    double labelnumber = (ui->label->text()).toDouble();
+    labelnumber/=savedvalue;
+    QString newLabel = QString::number(labelnumber, 'g',100);
+    ui->label->setText(newLabel);
+    operation=' ';
+}
+
+void Pshculator::on_mMultiply_clicked()
+{
+    if (operation != ' '){
+        operations();
+    }
+    double labelnumber = (ui->label->text()).toDouble();
+    labelnumber*=savedvalue;
+    QString newLabel = QString::number(labelnumber, 'g',100);
+    ui->label->setText(newLabel);
+    operation=' ';
+}
+
+void Pshculator::on_MMinus_clicked()
+{
+    if (operation != ' '){
+        operations();
+    }
+    double labelnumber = (ui->label->text()).toDouble();
+    labelnumber-=savedvalue;
+    QString newLabel = QString::number(labelnumber, 'g',100);
+    ui->label->setText(newLabel);
+    operation=' ';
+}
