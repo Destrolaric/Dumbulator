@@ -412,3 +412,25 @@ void Pshculator::on_numSqrt_clicked()
     symbolchange = 0;
     operation = ' ';
 }
+
+void Pshculator::on_pushButton_clicked()
+{
+    if (operation != ' ')
+    {
+        operations();
+    }
+    savedvalue=(ui->label->text()).toDouble();
+    operation = ' ';
+}
+
+void Pshculator::on_mDevide_clicked()
+{
+    if (operation != ' '){
+        operations();
+    }
+    double labelnumber = (ui->label->text()).toDouble();
+    labelnumber/=savedvalue;
+    QString newLabel = QString::number(labelnumber, 'g',100);
+    ui->label->setText(newLabel);
+    operation=' ';
+}

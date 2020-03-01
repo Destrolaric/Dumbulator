@@ -16,6 +16,7 @@ private:
     char operation = ' ';
     bool symbolchange = 1;
     double value = 0;
+    double savedvalue;
 
 public:
     explicit Pshculator(QWidget *parent = nullptr);
@@ -31,6 +32,10 @@ private slots:
     void on_x_clicked();
     void on_numFactorial_clicked();
     void on_numSqrt_clicked();
+    void on_pushButton_clicked();
+
+    void on_mDevide_clicked();
+
 private:
     Ui::Pshculator *ui;
 };
