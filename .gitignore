@@ -1,10 +1,10 @@
 # This file is used to ignore files which are generated
 # ----------------------------------------------------------------------------
 build*
-CMakeFiles*
-latex*
-html*
+html
 Testing*
+CMakeFiles*
+latex
 *~
 *.autosave
 *.a
