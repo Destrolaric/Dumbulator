@@ -33,7 +33,9 @@ private slots:
     void on_numFactorial_clicked();
     void on_numSqrt_clicked();
     void on_pushButton_clicked();
-
+    void on_mMultiply_clicked();
+    void on_MMinus_clicked();
+    void on_mPlus_clicked();
     void on_mDevide_clicked();
 
 private:
